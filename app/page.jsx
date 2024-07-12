@@ -1,7 +1,6 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap";
 import "./page.css";
 import SignInJoinInForm from "@/components/SigninJoininForm";
 import HobbySections from "@/components/Hobbies";
@@ -10,6 +9,10 @@ import Testimonial from "@/components/Testimonial";
 import Footer from "@/components/Footer";
 
 const Home = () => {
+  useEffect(() => {
+    import("bootstrap/dist/js/bootstrap");
+  }, []);
+
   return (
     <div className="">
       <div className={`main`}>
