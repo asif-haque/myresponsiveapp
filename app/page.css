@@ -1,0 +1,21 @@
+.main {
+  min-height: 100vh;
+  background-color: #f7f5f9;
+  padding: 30px 10px;
+}
+
+.hobby {
+  color: rgb(0, 145, 255);
+}
+
+@media (min-width: 1000px) {
+  .herotext {
+    width: 50%;
+  }
+  .form {
+    margin-left: auto;
+  }
+  /* .auth-container{
+    width: 400px;
+  } */
+}

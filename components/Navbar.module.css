@@ -1,0 +1,10 @@
+.logo {
+  height: 30px;
+}
+
+.nav {
+  list-style: none;
+  gap: 20px;
+  align-items: center;
+  margin: auto 0;
+}

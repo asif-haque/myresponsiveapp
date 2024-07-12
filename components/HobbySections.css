@@ -1,0 +1,23 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #666;
+}
+
+.btn-primary {
+  background-color: #8064a2;
+  border-color: #8064a2;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
